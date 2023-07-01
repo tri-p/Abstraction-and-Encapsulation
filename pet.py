@@ -27,3 +27,7 @@ class Pet():
         return self.__age
 
     # setter methods
+    def set_name(self):
+        name = input("What is the pet's name? ")
+        self.__name = name
+        return self.__name
