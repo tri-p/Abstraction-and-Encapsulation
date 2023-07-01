@@ -17,3 +17,14 @@ class Car:
               "\nSpeed:", self.__speed)
 
     # methods
+    def accelerate(self):
+        for i in range(5):
+            self.__speed += 5
+            print("Current Speed:", self.__speed)
+        return self.__speed
+    
+    def brake(self):
+        for i in range(5):
+            self.__speed -= 5
+            print("Current Speed:", self.__speed)
+        return self.__speed
