@@ -19,5 +19,16 @@ class Fan:
               "\nColor:", self.__color)
 
     # getter methods
+    def get_speed(self):
+        return self.__speed
+
+    def get_on(self):
+        return self.__on
+    
+    def get_radius(self):
+        return self.__radius
+    
+    def get_color(self):
+        return self.__color
 
     # setter methods to modify data member
