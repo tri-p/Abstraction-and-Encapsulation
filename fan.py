@@ -32,3 +32,19 @@ class Fan:
         return self.__color
 
     # setter methods to modify data member
+    # condition to allow data modification with rules
+    def set_speed(self, number):
+        try:
+            constant = ""
+            if number == 1:
+                constant = "SLOW"
+            elif number == 2:
+                constant = "MEDIUM"
+            elif number == 3:
+                constant = "FAST"
+            else:
+                constant = print("The number", number, "is invalid.")
+            self.__speed = constant
+        except ValueError():
+            print("Error.")
+        return self.__speed
