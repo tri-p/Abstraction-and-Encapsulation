@@ -31,3 +31,8 @@ class Pet():
         name = input("What is the pet's name? ")
         self.__name = name
         return self.__name
+    
+    def set_animal_type(self):
+        animal_type = input("What type of animal is the pet? ")
+        self.__animal_type = animal_type
+        return self.__animal_type

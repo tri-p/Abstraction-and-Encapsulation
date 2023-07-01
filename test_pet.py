@@ -6,6 +6,7 @@ pet = Pet()
 
 # prompt the user for information
 pet.set_name()
+pet.set_animal_type()
 
 # display the pet information
 print("\n")
