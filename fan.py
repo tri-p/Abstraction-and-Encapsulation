@@ -56,3 +56,10 @@ class Fan:
             fan = "off"
         self.__on = fan
         return self.__on
+    
+    def set_radius(self, number):
+        try:
+            self.__radius = float(number)
+        except ValueError():
+            print("Error.")
+        return self.__radius
