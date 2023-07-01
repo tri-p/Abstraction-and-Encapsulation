@@ -10,4 +10,5 @@ default_fan.show()
 # fan 1
 print("\nFAN 1")
 default_fan.set_speed(3)
+default_fan.set_on(True)
 default_fan.show()

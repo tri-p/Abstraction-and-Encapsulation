@@ -48,3 +48,11 @@ class Fan:
         except ValueError():
             print("Error.")
         return self.__speed
+    
+    def set_on(self, on):
+        if on is True:
+            fan = "on"
+        else:
+            fan = "off"
+        self.__on = fan
+        return self.__on
