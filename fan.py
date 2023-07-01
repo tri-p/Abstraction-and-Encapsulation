@@ -13,10 +13,10 @@ class Fan:
 
     # def show
     def show(self):
-        print("Speed:", self.__speed,
-              "\nThe fan is", self.__on,
-              "\nRadius:", self.__radius,
-              "\nColor:", self.__color)
+        print("\033[92m\033[1mSpeed:\033[0m", self.__speed,
+              "\n\033[92m\033[1mThe fan is\033[0m", self.__on,
+              "\n\033[92m\033[1mRadius:\033[0m", self.__radius,
+              "\n\033[92m\033[1mColor:\033[0m", self.__color)
 
     # getter methods
     def get_speed(self):
