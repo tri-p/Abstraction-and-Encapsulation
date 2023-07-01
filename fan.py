@@ -21,7 +21,3 @@ class Fan:
     # getter methods
 
     # setter methods to modify data member
-
-# object 
-
-# ===== start =====
