@@ -12,21 +12,21 @@ class Car:
 
     # def show
     def show(self):
-        print("\nYear Model: " + str(self.__year_model) +
-              "\nMake: " + str(self.__make) +
-              "\nSpeed: " + str(self.__speed) + "\n")
+        print("\n\033[92m\033[1mYear Model: \033[0m" + str(self.__year_model) +
+              "\n\033[92m\033[1mMake: \033[0m" + str(self.__make) +
+              "\n\033[92m\033[1mSpeed: \033[0m" + str(self.__speed) + "\n")
 
     # methods
     def accelerate(self):
         for i in range(5):
             self.__speed += 5
-            print("Current Speed:", self.__speed)
+            print("\033[96m\033[1mCurrent Speed:", self.__speed)
         return self.__speed
     
     def brake(self):
         for i in range(5):
             self.__speed -= 5
-            print("Current Speed:", self.__speed)
+            print("\033[96m\033[1mCurrent Speed:", self.__speed)
         return self.__speed
 
     # getter method
