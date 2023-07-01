@@ -12,9 +12,9 @@ class Pet():
 
     # def show
     def show(self):
-        print("Name:", self.__name,
-              "\nAnimal Type:", self.__animal_type,
-              "\nAge:", self.__age)
+        print("\033[92m\033[1mName:\033[0m", self.__name,
+              "\n\033[92m\033[1mAnimal Type:\033[0m", self.__animal_type,
+              "\n\033[92m\033[1mAge:\033[0m", self.__age)
 
     # getter methods
     def get_name(self):
@@ -28,16 +28,16 @@ class Pet():
 
     # setter methods
     def set_name(self):
-        name = input("What is the pet's name? ")
+        name = input("\033[92m\033[1mWhat is the pet's name? \033[0m")
         self.__name = name
         return self.__name
     
     def set_animal_type(self):
-        animal_type = input("What type of animal is the pet? ")
+        animal_type = input("\033[92m\033[1mWhat type of animal is the pet? \033[0m")
         self.__animal_type = animal_type
         return self.__animal_type
     
     def set_age(self):
-        age = int(input("What is the pet's age? "))
+        age = int(input("\033[92m\033[1mWhat is the pet's age? \033[0m"))
         self.__age = age
         return self.__age
