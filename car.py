@@ -11,5 +11,9 @@ class Car:
         self.__speed = 0  # default at zero
 
     # def show
+    def show(self):
+        print("\nYear Model:", self.__year_model,
+              "\nMake:", self.__make,
+              "\nSpeed:", self.__speed)
 
     # methods
