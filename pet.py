@@ -12,9 +12,9 @@ class Pet():
 
     # def show
     def show(self):
-        print("Name of the pet:", self.__name,
-              "\nAnimal type of the pet:", self.__animal_type,
-              "\nAge of pet:", self.__age)
+        print("Name:", self.__name,
+              "\nAnimal Type:", self.__animal_type,
+              "\nAge:", self.__age)
 
     # getter methods
     def get_name(self):
@@ -36,3 +36,8 @@ class Pet():
         animal_type = input("What type of animal is the pet? ")
         self.__animal_type = animal_type
         return self.__animal_type
+    
+    def set_age(self):
+        age = int(input("What is the pet's age? "))
+        self.__age = age
+        return self.__age
