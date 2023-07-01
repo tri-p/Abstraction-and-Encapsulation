@@ -12,9 +12,9 @@ class Car:
 
     # def show
     def show(self):
-        print("\nYear Model:", self.__year_model,
-              "\nMake:", self.__make,
-              "\nSpeed:", self.__speed)
+        print("\nYear Model: " + str(self.__year_model) +
+              "\nMake: " + str(self.__make) +
+              "\nSpeed: " + str(self.__speed) + "\n")
 
     # methods
     def accelerate(self):
@@ -27,4 +27,8 @@ class Car:
         for i in range(5):
             self.__speed -= 5
             print("Current Speed:", self.__speed)
+        return self.__speed
+
+    # getter method
+    def get_speed(self):
         return self.__speed
