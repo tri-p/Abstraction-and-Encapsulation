@@ -12,6 +12,11 @@ class Fan:
         self.__color = color
 
     # def show
+    def show(self):
+        print("Speed:", self.__speed,
+              "\nThe fan is", self.__on,
+              "\nRadius:", self.__radius,
+              "\nColor:", self.__color)
 
     # getter methods
 
