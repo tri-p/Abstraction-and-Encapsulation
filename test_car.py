@@ -11,3 +11,10 @@ print("=" * 80)
 print("\nThe car is accelerating...")
 car.accelerate()
 car.show()
+print("\n")
+
+# brake
+print("=" * 80)
+print("\nThe car is braking...")
+car.brake()
+car.show()
