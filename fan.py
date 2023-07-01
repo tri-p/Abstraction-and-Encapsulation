@@ -63,3 +63,7 @@ class Fan:
         except ValueError():
             print("Error.")
         return self.__radius
+    
+    def set_color(self, color):
+        self.__color = color
+        return self.__color
